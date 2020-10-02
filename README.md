@@ -12,8 +12,10 @@ This is a tile flipping game written using Python's very own tkinter module!
 * Click new game to shuffle the tiles and start a new game.
 <br>
 <b>Screencap of a game play</b>
+
 ![screenshot](https://github.com/Chahat08/tkinter_tile_flipping_game/blob/main/Screenshot%202020-10-02%20115241.png)
 <br>
 
 <b>Screencap of when the game ends</b>
+
 ![screenshot](https://github.com/Chahat08/tkinter_tile_flipping_game/blob/main/Screenshot%202020-10-02%20115505.png)
