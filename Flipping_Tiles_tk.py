@@ -53,7 +53,7 @@ def new_game():
     k=0
     for i in range(4):
         for j in range(4):
-            buttons[k].bttn.grid(row=i, column=j)
+            buttons[k].bttn.grid(row=i, column=j, sticky='nsew')
             if k!= len(colours)-1: k+=1
 
 
@@ -104,6 +104,9 @@ class b:
 window = tk.Tk()
 window.title('Flip!')
 window.config(bg = 'black')
+
+window.rowconfigure([0,1],weight=1,pad=2)
+window.columnconfigure(0,weight =1, pad=2)
 
 frm = tk.Frame(window, bg='Gray')
 frm.grid(row = 0, column=0, sticky='nsew')
